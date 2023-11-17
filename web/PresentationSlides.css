@@ -1,0 +1,51 @@
+/* html 中 css 写法
+<head>
+    <style>
+    .presentation {
+        ...
+    }
+    </style>
+</head>
+*/
+
+/* dat.gui */
+body .dg {
+    &.ac {
+        /* z-index: 1 !important; */
+        z-index: 1;
+    }
+}
+
+/* cesium */
+.bgpresentation {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* reveal.js z-index 设置为1 所以此处也设置为1
+    * 0 三维在下
+    * 1 三维 二维 同层
+    * 2 三维在上
+    */
+    /* /// @todo dat.gui被覆盖 使用iframe解决*/
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: #0000ff;
+    background-image:
+        /*linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),*/
+        /* 四个免费的渐变配色网站
+        * https://zhuanlan.zhihu.com/p/46609832
+        * https://webkul.github.io/coolhue/
+        * https://webgradients.com/
+        * https://www.gradientmagic.com/
+        */
+        linear-gradient(#43CBFF80, #9708CC80),
+        url(bd46d9d819c8d5bc0371.png);
+    /**/
+    pointer-events: all;
+}
+
+
+
+
+/*# sourceMappingURL=PresentationSlides.css.map*/
