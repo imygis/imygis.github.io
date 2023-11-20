@@ -4,6 +4,8 @@
 
 ## Getting Started
 
+https://github.com/imygis/imygis.github.io/assets/77333915/11de03f8-8cdc-4782-af98-90c243c4f320
+
 ### 功能模块
 - 数据处理：[地理信息基础数据处理平台](https://imygis.github.io/web/graphnodeengine.html)低代码开发包 和 工具包
 - 数据渲染/三维漫游：集成了 osg klayge ogre [cesium](https://imygis.github.io/web/spatialexplorer.cesium.html) [osgjs](https://imygis.github.io/web/spatialexplorer.osgjs.html) [threejs](https://imygis.github.io/web/spatialexplorer.threejs.html)等引擎
