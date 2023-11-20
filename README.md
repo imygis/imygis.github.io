@@ -44,6 +44,16 @@ options:
   -?, --help              print this message
 ```
 
+普查管线建模
+
+普查管线之配置
+
+https://github.com/imygis/imygis.github.io/assets/77333915/f222313e-f886-43e6-9f4f-5084d04d6ccc
+
+普查管线之建模
+
+https://github.com/imygis/imygis.github.io/assets/77333915/c469d8ea-c2e6-4b20-946d-2fda9e621926
+
 ```
 Cesium3DTilesDownloadTileset.exe --InputDataPath=string --OutputDataPath=string [options] ...
 options:
