@@ -14,7 +14,18 @@ https://github.com/imygis/imygis.github.io/assets/77333915/11de03f8-8cdc-4782-af
 ![iMyGIS Platform and Ecosystem](./assets/integration-ecosystem-diagram.jpg)
 *<p align="center">A high-level iMyGIS platform architecture</p>*
 
-### 演示
+#### 服务API调用(Sequence diagram)
+```mermaid
+sequenceDiagram
+api->>imygis: http://map.imygis.com/api/imygis
+imygis-->>test: http://map.imygis.com/api/imygis/test
+imygis-->>webGIS: http://map.imygis.com/api/imygis/webGIS
+imygis-->>gis: http://map.imygis.com/api/imygis/gis
+imygis-->>nodejs: http://map.imygis.com/api/imygis/nodejs
+imygis-->>data: http://map.imygis.com/api/imygis/data
+api->>productOther: todo!
+api->>productTest: todo!
+```
 
 ## 交流群 QQ 901291659
 ![iMyGIS交流群 QQ 901291659](assets/imgs/iMyGISCommunicationGroupSmall.jpg)
