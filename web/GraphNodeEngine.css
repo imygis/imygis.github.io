@@ -1,0 +1,535 @@
+html,body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #333;
+	color: #EEE;
+	font: 14px Tahoma;
+}
+
+h1 {
+	font-family: "Metro Light",Tahoma;
+}
+
+h2 {
+	font-family: "Metro Light";
+}
+
+#main {
+	width: 100%;
+	height: 100%;
+	background-color: #222;
+}
+
+
+#status {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #FAA;
+	font-size: 18px;
+	padding: 5px;
+	/*border-radius: 5px;*/
+	width: -moz-calc( 50% - 30px);
+	min-height: 30px;
+	overflow: hidden;
+	background-color: #644;
+}
+
+#help-message {
+	padding: 2px;
+	font-size: 0.8em;
+	background-color: #464;
+	/*border-radius: 2px;*/
+}
+
+#content {
+	position: relative;
+	min-height: 500px;
+	overflow: hidden;
+}
+
+.fullscreen #content {
+	min-height: -moz-calc(100% - 80px);
+	min-height: -webkit-calc(100% - 80px);
+	min-height: calc(100% - 80px);
+}
+
+.info-section p {
+	padding-left: 20px;
+	margin: 2px;
+}
+
+.info-section strong {
+	color: #FEA;
+}
+
+#visual {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+}
+
+
+.item-list .item {
+	margin: 5px;
+	padding: 5px;
+	font-size: 1.2em;
+
+	background-color: transparent;
+	color: #999;
+	padding-left: 5px;
+	transition: background-color 300ms, color 300ms, padding-left 300ms;
+	-moz-transition: background-color 300ms, color 300ms, padding-left 300ms;
+	-webkit-transition: background-color 300ms, color 300ms, padding-left 300ms;
+}
+
+.item-list .item:hover {
+	background-color: #33A;
+	/*border-radius: 4px;*/
+	color: white;
+	padding-left: 15px;
+	transition: background-color 300ms, color 300ms, padding-left 300ms;
+	-moz-transition: background-color 300ms, color 300ms, padding-left 300ms;
+	-webkit-transition: background-color 300ms, color 300ms, padding-left 300ms;
+	cursor: pointer;
+}
+
+#gallery .item-list .item:hover {
+	background-color: #A83;
+}
+
+.item-list .item strong {
+	display: inline-block;
+	width: 200px;
+}
+
+.form label {
+	font-size: 1.2em;
+	width: 200px;
+	display: inline-block;
+	text-align: right;
+}
+
+label {
+	font-weight: bold;
+	color: #AAF;
+}
+
+.header input { 
+	color: #EEE;
+	background-color: #555;
+	font-size: 1.2em;
+	border: 1px solid black;
+	/*border-radius: 4px;*/
+	padding: 2px;
+	/*box-shadow: inset 0 0 3px #333; */
+	font-family: Verdana;
+	width: 250px;
+}
+
+textarea {
+	vertical-align: top;
+}
+
+#block-app {
+	width:100%;
+	height:100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+	z-index: 6;
+}
+
+#block-app span {
+	display: block;
+	font-size: 30px;
+	margin: auto;
+	margin-top: 300px;
+}
+
+#block-app span a {
+	display: inline-block;
+	/*border-radius: 4px;*/
+	text-decoration: none;
+	color: black;
+	background-color: red;
+	padding: 0 4px 0 4px;
+}
+
+::-webkit-scrollbar {
+    height: 12px;
+	width: 6px;
+	background: #222;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(200,200,200,0.4);
+}
+::-webkit-scrollbar-corner {
+    background: #766;
+}
+
+#editor {
+	position: relative;
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+#editor .toolsbar {
+	width: 100%;
+	height: 30px;
+	background-color: #262626;
+	margin: 0;
+	padding: 0;
+}
+
+#editor .toolsbar button {
+	padding: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 3px 0 0 3px;
+}
+
+#editor .toolsbar button.enabled {
+	background-color: #66A;
+}
+
+#world {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50%;
+	height: 100%;
+}
+
+#worldcanvas {
+	background-color: #343;
+}
+
+.popup {
+	position: absolute;
+	top: 0;
+	background-color: rgba(50,50,90,0.8);
+	width: 100%;
+	height: 100%;
+}
+
+.popup .header, .nodepanel .header {
+	width: 100%;
+	height: 30px;
+	font-size: 20px;
+	padding: 2px;
+}
+
+#help {
+	color: #eee;
+}
+
+#help p {
+	margin: 10px;
+}
+
+.selector {
+	font-size: 1.8em;
+}
+
+
+.selector select {
+	color: white;
+	background-color: black;
+	border: 0;
+	font-size: 1em;
+}
+
+.graphcanvas{
+	/*touch-action: manipulation; WONT WORK*/
+	/*touch-action: none; DESIDERABLE: implement zoom and pan*/
+	touch-action: pinch-zoom;
+}
+.litegraph-editor {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    background-color: #333;
+    color: #eee;
+    font: 14px Tahoma;
+
+    position: relative;
+}
+
+.litegraph-editor h1 {
+    font-family: "Metro Light", Tahoma;
+    color: #ddd;
+    font-size: 28px;
+    padding-left: 10px;
+    /*text-shadow: 0 1px 1px #333, 0 -1px 1px #777;*/
+    margin: 0;
+    font-weight: normal;
+}
+
+.litegraph-editor h1 span {
+    font-family: "Arial";
+    font-size: 14px;
+    font-weight: normal;
+    color: #aaa;
+}
+
+.litegraph-editor h2 {
+    font-family: "Metro Light";
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.litegraph-editor * {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.litegraph-editor .content {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 80px);
+    background-color: #1a1a1a;
+}
+
+.litegraph-editor .header,
+.litegraph-editor .footer {
+    position: relative;
+    height: 40px;
+    background-color: #333;
+    /*border-radius: 10px 10px 0 0;*/
+}
+
+.litegraph-editor .tools,
+.litegraph-editor .tools-left,
+.litegraph-editor .tools-right {
+    position: absolute;
+    top: 2px;
+    right: 0px;
+    vertical-align: top;
+
+    margin: 2px 5px 0 0px;
+}
+
+.litegraph-editor .tools-left {
+    right: auto;
+    left: 4px;
+}
+
+.litegraph-editor .footer {
+    height: 40px;
+    position: relative;
+    /*border-radius: 0 0 10px 10px;*/
+}
+
+.litegraph-editor .miniwindow {
+    background-color: #333;
+    border: 1px solid #111;
+}
+
+.litegraph-editor .miniwindow .corner-button {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    font-family: "Tahoma";
+    font-size: 14px;
+    color: #aaa;
+    cursor: pointer;
+}
+
+/* BUTTONS **********************/
+
+.litegraph-editor .btn {
+    /*font-family: "Metro Light";*/
+    color: #ccc;
+    font-size: 20px;
+    min-width: 30px;
+    /*border-radius: 0.3em;*/
+    border: 0 solid #666;
+    background-color: #3f3f3f;
+    /*box-shadow: 0 0 3px black;*/
+    padding: 4px 10px;
+    cursor: pointer;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 0.4s;
+}
+
+.litegraph-editor button:hover {
+    background-color: #999;
+    color: #fff;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 0.4s;
+}
+
+.litegraph-editor button:active {
+    background-color: white;
+}
+
+.litegraph-editor button.fixed {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 1.2em;
+}
+
+.litegraph-editor button img {
+    margin: -4px;
+    vertical-align: top;
+    opacity: 0.8;
+    transition: all 1s;
+}
+
+.litegraph-editor button:hover img {
+    opacity: 1;
+}
+
+.litegraph-editor .header button {
+    height: 32px;
+    vertical-align: top;
+}
+
+.litegraph-editor .footer button {
+    /*font-size: 16px;*/
+}
+
+.litegraph-editor .toolbar-widget {
+    display: inline-block;
+}
+
+.litegraph-editor .editor-area {
+    width: 100%;
+    height: 100%;
+}
+
+/* METER *********************/
+
+.litegraph-editor .loadmeter {
+    font-family: "Tahoma";
+    color: #aaa;
+    font-size: 12px;
+    border-radius: 2px;
+    width: 130px;
+    vertical-align: top;
+}
+
+.litegraph-editor .strong {
+    vertical-align: top;
+    padding: 3px;
+    width: 30px;
+    display: inline-block;
+    line-height: 8px;
+}
+/** Webpack 中 css import 使用 alias 相对路径
+* 在用 webpack 处理打包时, 可以将某一个目录配置一个别名,
+* 代码中可以使用与别名的相对路径引用资源
+* alias 通道:  https://webpack.js.org/configuration/resolve/
+*
+* 问题
+* JS能够用alias, css就报错(假定 @ 为 alias)
+* js中:
+*    import tool from '@/utils/xxx' (能够引用)
+* css中:
+*    @import '@/assets/css/reset.sass' (报错)
+*
+* 具体使用
+* 在 webpack 中配置:
+*     ...,
+*     resolve: {
+*       ...,
+*       alias: {
+*         'Src': resolve('src')
+*       }
+*     }
+* 你可以这样使用:
+*     import xxx from "Src/...";
+* 来代替:
+*     import xxx from "路径/src/...";
+* 这样做的好处是: 当你改变目录的位置的时候, 不需要在每个引入它的地方进行更改, 只需要更改 webpack 中的配置就可以了
+*
+* 引用非 js 文件的静态资源
+* 各类非 js 直接引用（import require）静态资源, 会出现问题
+* 例如:
+* 在 webpack 中配置:
+*     resolve: {
+*       ...,
+*       alias: {
+*         'Css': resolve('css')
+*       }
+*     }
+* 错误使用:
+*     @import "Css/...";
+* 报错: "找不到 'Css' 目录" 说明 webpack 没有正确识别资源相对路径
+*
+* 原因: css 文件会被 css-loader 处理, 这里的"Css/…"会被 css-loader 当做绝对路径处理
+*     因为我们并没有添加 css-loader 的 alias, 所以报错啦
+* 解决: 在 webpack 中 css import 使用 alias 相对路径的解决办法有两种:
+*     1 直接为 css-loader 添加 alias 的路径
+*         可是在 给的模板中, 单独针对这个插件添加配置就显得麻烦冗余了
+*     2 在引用路径的字符串前面加上 ~ 的符号
+*         如: @import "~Css/…"
+*         webpack 会以~符号作为前缀的路径视为依赖模块去解析
+* 正确使用:
+*     @import "~Css/...";
+*
+* 总结
+* ~ 视为模块解析是 webpack 做的事, 不是 css-loader 的事
+* 各类非 js 直接引用（import require）静态资源, 依赖相对路径加载的问题都可以使用~语法完美解决
+* 例如:
+*     css module中:  @import "~Css/…";
+*     css 属性中:  backaground:url('~Image/…')
+*     html 标签中: <img src="~Image/..."/>
+*/
+.litegraph-editor .cpuload .bgload,
+.litegraph-editor .gpuload .bgload {
+    display: inline-block;
+    width: 90px;
+    height: 15px;
+    background-image: url(234cd46e0bc61aec4343.png);
+}
+
+.litegraph-editor .cpuload .fgload,
+.litegraph-editor .gpuload .fgload {
+    display: inline-block;
+    width: 4px;
+    height: 15px;
+    max-width: 90px;
+    background-image: url(de5ae0e5d4a7f582e17a.png);
+}
+
+.litegraph-editor textarea.code, .litegraph-editor div.code {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    padding: 4px;
+    font: 16px monospace;
+    overflow: auto;
+    resize: none;
+    outline: none;
+    color: #DDD;
+}
+
+.litegraph-editor .codeflask {
+    background-color: #2a2a2a;
+}
+
+.litegraph-editor .codeflask textarea {
+    opacity: 0;
+}
+
+/*# sourceMappingURL=GraphNodeEngine.css.map*/

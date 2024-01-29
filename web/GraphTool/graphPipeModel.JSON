@@ -1,0 +1,1091 @@
+{
+  "last_node_id": 25,
+  "last_link_id": 114,
+  "nodes": [
+    {
+      "id": 2,
+      "type": "工具/Excel(xlsx)",
+      "pos": [
+        261,
+        40
+      ],
+      "size": {
+        "0": 330,
+        "1": 1446
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "action",
+          "type": -1,
+          "link": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "event",
+          "type": -1,
+          "links": [
+            100
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "表信息",
+          "type": "object",
+          "links": [
+            114
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "管段编码 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": [],
+          "slot_index": 2
+        },
+        {
+          "name": "管线类型 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": [],
+          "slot_index": 3
+        },
+        {
+          "name": "埋设方式 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": [],
+          "slot_index": 4
+        },
+        {
+          "name": "起点点号 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": [
+            102
+          ],
+          "slot_index": 5
+        },
+        {
+          "name": "终点点号 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": [
+            103
+          ],
+          "slot_index": 6
+        },
+        {
+          "name": "起点外顶高程 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "起点外底高程 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "起点地面高程 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "终点外顶高程 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "终点外底高程 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "终点地面高程 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "起点覆土深度 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "终点覆土深度 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "起点埋深 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": [
+            113
+          ],
+          "slot_index": 15
+        },
+        {
+          "name": "终点埋深 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": [
+            112
+          ]
+        },
+        {
+          "name": "起点内底埋深 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": []
+        },
+        {
+          "name": "终点内底埋深 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": []
+        },
+        {
+          "name": "起点净空高度 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "终点净空高度 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "管径 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": [
+            104
+          ],
+          "slot_index": 21
+        },
+        {
+          "name": "管材质 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "沟材质 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "断面尺寸 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "壁厚 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "顶板厚 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "底板厚 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "墙厚 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "介质 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "保温材料材质 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "保温材料厚度 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "道路名 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "权属单位 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "修建年代 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "探查时间 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "竣工测量时间 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "线路名称 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "探查单位 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "测量单位 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "管段位置 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "使用状态 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "备注 @ 采暖管段信息表_L",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "物探点号 @ 采暖管点信息表_P",
+          "type": "object",
+          "links": [
+            107
+          ],
+          "slot_index": 43
+        },
+        {
+          "name": "图上点号 @ 采暖管点信息表_P",
+          "type": "object",
+          "links": [],
+          "slot_index": 44
+        },
+        {
+          "name": "图幅号 @ 采暖管点信息表_P",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "管点类型编码 @ 采暖管点信息表_P",
+          "type": "object",
+          "links": [
+            108
+          ],
+          "slot_index": 46
+        },
+        {
+          "name": "地面高程 @ 采暖管点信息表_P",
+          "type": "object",
+          "links": [
+            111
+          ],
+          "slot_index": 47
+        },
+        {
+          "name": "井深 @ 采暖管点信息表_P",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "小室覆土深度 @ 采暖管点信息表_P",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "附属物规模 @ 采暖管点信息表_P",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "附属物类型编码 @ 采暖管点信息表_P",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "构筑物编码 @ 采暖管点信息表_P",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "管点材质 @ 采暖管点信息表_P",
+          "type": "object",
+          "links": [],
+          "slot_index": 53
+        },
+        {
+          "name": "平面纵坐标 @ 采暖管点信息表_P",
+          "type": "object",
+          "links": [
+            110
+          ]
+        },
+        {
+          "name": "平面横坐标 @ 采暖管点信息表_P",
+          "type": "object",
+          "links": [
+            109
+          ]
+        },
+        {
+          "name": "井盖形状 @ 采暖管点信息表_P",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "井盖材料 @ 采暖管点信息表_P",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "井盖直径 @ 采暖管点信息表_P",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "井盖长 @ 采暖管点信息表_P",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "井盖宽 @ 采暖管点信息表_P",
+          "type": "object",
+          "links": [],
+          "slot_index": 60
+        },
+        {
+          "name": "井脖深 @ 采暖管点信息表_P",
+          "type": "object",
+          "links": [],
+          "slot_index": 61
+        },
+        {
+          "name": "井室材料 @ 采暖管点信息表_P",
+          "type": "object",
+          "links": [],
+          "slot_index": 62
+        },
+        {
+          "name": "井室直径 @ 采暖管点信息表_P",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "井室长 @ 采暖管点信息表_P",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "井室宽 @ 采暖管点信息表_P",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "修建年代 @ 采暖管点信息表_P",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "探查时间 @ 采暖管点信息表_P",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "竣工测量时间 @ 采暖管点信息表_P",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "使用状态 @ 采暖管点信息表_P",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "管点位置状态 @ 采暖管点信息表_P",
+          "type": "object",
+          "links": null
+        },
+        {
+          "name": "备注 @ 采暖管点信息表_P",
+          "type": "object",
+          "links": null
+        }
+      ],
+      "title": "Excel Pipe (采暖管.xlsx)",
+      "properties": {
+        "表头起始行号": 1,
+        "表头起始列号": 1,
+        "数据起始行号": 2,
+        "数据起始列号": 1,
+        "url": "采暖管.xlsx",
+        "cacheCustom": {
+          "outputs": {
+            "表信息": {
+              "表头起始行号": 1,
+              "表头起始列号": 1,
+              "数据起始行号": 2,
+              "数据起始列号": 1
+            },
+            "管段编码 @ 采暖管段信息表_L": {
+              "name": "管段编码 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 1
+            },
+            "管线类型 @ 采暖管段信息表_L": {
+              "name": "管线类型 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 2
+            },
+            "埋设方式 @ 采暖管段信息表_L": {
+              "name": "埋设方式 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 3
+            },
+            "起点点号 @ 采暖管段信息表_L": {
+              "name": "起点点号 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 4
+            },
+            "终点点号 @ 采暖管段信息表_L": {
+              "name": "终点点号 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 5
+            },
+            "起点外顶高程 @ 采暖管段信息表_L": {
+              "name": "起点外顶高程 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 6
+            },
+            "起点外底高程 @ 采暖管段信息表_L": {
+              "name": "起点外底高程 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 7
+            },
+            "起点地面高程 @ 采暖管段信息表_L": {
+              "name": "起点地面高程 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 8
+            },
+            "终点外顶高程 @ 采暖管段信息表_L": {
+              "name": "终点外顶高程 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 9
+            },
+            "终点外底高程 @ 采暖管段信息表_L": {
+              "name": "终点外底高程 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 10
+            },
+            "终点地面高程 @ 采暖管段信息表_L": {
+              "name": "终点地面高程 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 11
+            },
+            "起点覆土深度 @ 采暖管段信息表_L": {
+              "name": "起点覆土深度 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 12
+            },
+            "终点覆土深度 @ 采暖管段信息表_L": {
+              "name": "终点覆土深度 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 13
+            },
+            "起点埋深 @ 采暖管段信息表_L": {
+              "name": "起点埋深 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 14
+            },
+            "终点埋深 @ 采暖管段信息表_L": {
+              "name": "终点埋深 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 15
+            },
+            "起点内底埋深 @ 采暖管段信息表_L": {
+              "name": "起点内底埋深 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 16
+            },
+            "终点内底埋深 @ 采暖管段信息表_L": {
+              "name": "终点内底埋深 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 17
+            },
+            "起点净空高度 @ 采暖管段信息表_L": {
+              "name": "起点净空高度 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 18
+            },
+            "终点净空高度 @ 采暖管段信息表_L": {
+              "name": "终点净空高度 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 19
+            },
+            "管径 @ 采暖管段信息表_L": {
+              "name": "管径 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 20
+            },
+            "管材质 @ 采暖管段信息表_L": {
+              "name": "管材质 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 21
+            },
+            "沟材质 @ 采暖管段信息表_L": {
+              "name": "沟材质 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 22
+            },
+            "断面尺寸 @ 采暖管段信息表_L": {
+              "name": "断面尺寸 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 23
+            },
+            "壁厚 @ 采暖管段信息表_L": {
+              "name": "壁厚 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 24
+            },
+            "顶板厚 @ 采暖管段信息表_L": {
+              "name": "顶板厚 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 25
+            },
+            "底板厚 @ 采暖管段信息表_L": {
+              "name": "底板厚 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 26
+            },
+            "墙厚 @ 采暖管段信息表_L": {
+              "name": "墙厚 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 27
+            },
+            "介质 @ 采暖管段信息表_L": {
+              "name": "介质 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 28
+            },
+            "保温材料材质 @ 采暖管段信息表_L": {
+              "name": "保温材料材质 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 29
+            },
+            "保温材料厚度 @ 采暖管段信息表_L": {
+              "name": "保温材料厚度 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 30
+            },
+            "道路名 @ 采暖管段信息表_L": {
+              "name": "道路名 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 31
+            },
+            "权属单位 @ 采暖管段信息表_L": {
+              "name": "权属单位 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 32
+            },
+            "修建年代 @ 采暖管段信息表_L": {
+              "name": "修建年代 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 33
+            },
+            "探查时间 @ 采暖管段信息表_L": {
+              "name": "探查时间 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 34
+            },
+            "竣工测量时间 @ 采暖管段信息表_L": {
+              "name": "竣工测量时间 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 35
+            },
+            "线路名称 @ 采暖管段信息表_L": {
+              "name": "线路名称 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 36
+            },
+            "探查单位 @ 采暖管段信息表_L": {
+              "name": "探查单位 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 37
+            },
+            "测量单位 @ 采暖管段信息表_L": {
+              "name": "测量单位 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 38
+            },
+            "管段位置 @ 采暖管段信息表_L": {
+              "name": "管段位置 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 39
+            },
+            "使用状态 @ 采暖管段信息表_L": {
+              "name": "使用状态 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 40
+            },
+            "备注 @ 采暖管段信息表_L": {
+              "name": "备注 @ 采暖管段信息表_L",
+              "sheetName": "采暖管段信息表_L",
+              "col": 41
+            },
+            "物探点号 @ 采暖管点信息表_P": {
+              "name": "物探点号 @ 采暖管点信息表_P",
+              "sheetName": "采暖管点信息表_P",
+              "col": 1
+            },
+            "图上点号 @ 采暖管点信息表_P": {
+              "name": "图上点号 @ 采暖管点信息表_P",
+              "sheetName": "采暖管点信息表_P",
+              "col": 2
+            },
+            "图幅号 @ 采暖管点信息表_P": {
+              "name": "图幅号 @ 采暖管点信息表_P",
+              "sheetName": "采暖管点信息表_P",
+              "col": 3
+            },
+            "管点类型编码 @ 采暖管点信息表_P": {
+              "name": "管点类型编码 @ 采暖管点信息表_P",
+              "sheetName": "采暖管点信息表_P",
+              "col": 4
+            },
+            "地面高程 @ 采暖管点信息表_P": {
+              "name": "地面高程 @ 采暖管点信息表_P",
+              "sheetName": "采暖管点信息表_P",
+              "col": 5
+            },
+            "井深 @ 采暖管点信息表_P": {
+              "name": "井深 @ 采暖管点信息表_P",
+              "sheetName": "采暖管点信息表_P",
+              "col": 6
+            },
+            "小室覆土深度 @ 采暖管点信息表_P": {
+              "name": "小室覆土深度 @ 采暖管点信息表_P",
+              "sheetName": "采暖管点信息表_P",
+              "col": 7
+            },
+            "附属物规模 @ 采暖管点信息表_P": {
+              "name": "附属物规模 @ 采暖管点信息表_P",
+              "sheetName": "采暖管点信息表_P",
+              "col": 8
+            },
+            "附属物类型编码 @ 采暖管点信息表_P": {
+              "name": "附属物类型编码 @ 采暖管点信息表_P",
+              "sheetName": "采暖管点信息表_P",
+              "col": 9
+            },
+            "构筑物编码 @ 采暖管点信息表_P": {
+              "name": "构筑物编码 @ 采暖管点信息表_P",
+              "sheetName": "采暖管点信息表_P",
+              "col": 10
+            },
+            "管点材质 @ 采暖管点信息表_P": {
+              "name": "管点材质 @ 采暖管点信息表_P",
+              "sheetName": "采暖管点信息表_P",
+              "col": 11
+            },
+            "平面纵坐标 @ 采暖管点信息表_P": {
+              "name": "平面纵坐标 @ 采暖管点信息表_P",
+              "sheetName": "采暖管点信息表_P",
+              "col": 12
+            },
+            "平面横坐标 @ 采暖管点信息表_P": {
+              "name": "平面横坐标 @ 采暖管点信息表_P",
+              "sheetName": "采暖管点信息表_P",
+              "col": 13
+            },
+            "井盖形状 @ 采暖管点信息表_P": {
+              "name": "井盖形状 @ 采暖管点信息表_P",
+              "sheetName": "采暖管点信息表_P",
+              "col": 14
+            },
+            "井盖材料 @ 采暖管点信息表_P": {
+              "name": "井盖材料 @ 采暖管点信息表_P",
+              "sheetName": "采暖管点信息表_P",
+              "col": 15
+            },
+            "井盖直径 @ 采暖管点信息表_P": {
+              "name": "井盖直径 @ 采暖管点信息表_P",
+              "sheetName": "采暖管点信息表_P",
+              "col": 16
+            },
+            "井盖长 @ 采暖管点信息表_P": {
+              "name": "井盖长 @ 采暖管点信息表_P",
+              "sheetName": "采暖管点信息表_P",
+              "col": 17
+            },
+            "井盖宽 @ 采暖管点信息表_P": {
+              "name": "井盖宽 @ 采暖管点信息表_P",
+              "sheetName": "采暖管点信息表_P",
+              "col": 18
+            },
+            "井脖深 @ 采暖管点信息表_P": {
+              "name": "井脖深 @ 采暖管点信息表_P",
+              "sheetName": "采暖管点信息表_P",
+              "col": 19
+            },
+            "井室材料 @ 采暖管点信息表_P": {
+              "name": "井室材料 @ 采暖管点信息表_P",
+              "sheetName": "采暖管点信息表_P",
+              "col": 20
+            },
+            "井室直径 @ 采暖管点信息表_P": {
+              "name": "井室直径 @ 采暖管点信息表_P",
+              "sheetName": "采暖管点信息表_P",
+              "col": 21
+            },
+            "井室长 @ 采暖管点信息表_P": {
+              "name": "井室长 @ 采暖管点信息表_P",
+              "sheetName": "采暖管点信息表_P",
+              "col": 22
+            },
+            "井室宽 @ 采暖管点信息表_P": {
+              "name": "井室宽 @ 采暖管点信息表_P",
+              "sheetName": "采暖管点信息表_P",
+              "col": 23
+            },
+            "修建年代 @ 采暖管点信息表_P": {
+              "name": "修建年代 @ 采暖管点信息表_P",
+              "sheetName": "采暖管点信息表_P",
+              "col": 24
+            },
+            "探查时间 @ 采暖管点信息表_P": {
+              "name": "探查时间 @ 采暖管点信息表_P",
+              "sheetName": "采暖管点信息表_P",
+              "col": 25
+            },
+            "竣工测量时间 @ 采暖管点信息表_P": {
+              "name": "竣工测量时间 @ 采暖管点信息表_P",
+              "sheetName": "采暖管点信息表_P",
+              "col": 26
+            },
+            "使用状态 @ 采暖管点信息表_P": {
+              "name": "使用状态 @ 采暖管点信息表_P",
+              "sheetName": "采暖管点信息表_P",
+              "col": 27
+            },
+            "管点位置状态 @ 采暖管点信息表_P": {
+              "name": "管点位置状态 @ 采暖管点信息表_P",
+              "sheetName": "采暖管点信息表_P",
+              "col": 28
+            },
+            "备注 @ 采暖管点信息表_P": {
+              "name": "备注 @ 采暖管点信息表_P",
+              "sheetName": "采暖管点信息表_P",
+              "col": 29
+            }
+          }
+        }
+      },
+      "boxcolor": "#AEA"
+    },
+    {
+      "id": 8,
+      "type": "basic/download",
+      "pos": [
+        1323,
+        538
+      ],
+      "size": {
+        "0": 210,
+        "1": 78
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "data",
+          "type": 0,
+          "link": 99,
+          "slot_index": 0
+        },
+        {
+          "name": "download",
+          "type": -1,
+          "link": 98
+        }
+      ],
+      "properties": {
+        "filename": "data.json"
+      }
+    },
+    {
+      "id": 25,
+      "type": "工具/PipeModel",
+      "pos": [
+        1026,
+        531
+      ],
+      "size": {
+        "0": 140,
+        "1": 246
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "action",
+          "type": -1,
+          "link": 100
+        },
+        {
+          "name": "表信息",
+          "type": "object",
+          "link": 114,
+          "slot_index": 1
+        },
+        {
+          "name": "管线起点编号",
+          "type": "object",
+          "link": 102
+        },
+        {
+          "name": "管线终点编号",
+          "type": "object",
+          "link": 103
+        },
+        {
+          "name": "管线管径",
+          "type": "object",
+          "link": 104
+        },
+        {
+          "name": "管线起点标高",
+          "type": "object",
+          "link": 113,
+          "slot_index": 5
+        },
+        {
+          "name": "管线终点标高",
+          "type": "object",
+          "link": 112,
+          "slot_index": 6
+        },
+        {
+          "name": "管点编号",
+          "type": "object",
+          "link": 107
+        },
+        {
+          "name": "管点类型",
+          "type": "object",
+          "link": 108
+        },
+        {
+          "name": "管点平面横坐标",
+          "type": "object",
+          "link": 109
+        },
+        {
+          "name": "管点平面纵坐标",
+          "type": "object",
+          "link": 110
+        },
+        {
+          "name": "管点地面标高",
+          "type": "object",
+          "link": 111
+        }
+      ],
+      "outputs": [
+        {
+          "name": "event",
+          "type": -1,
+          "links": [
+            98
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "配置",
+          "type": "object",
+          "links": [
+            99
+          ],
+          "slot_index": 1
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 1,
+      "type": "widget/button",
+      "pos": [
+        16,
+        43
+      ],
+      "size": [
+        164,
+        84
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "",
+          "type": -1,
+          "links": [
+            1
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "",
+          "type": "boolean",
+          "links": null
+        }
+      ],
+      "properties": {
+        "text": "click me",
+        "font_size": 30,
+        "message": ""
+      }
+    }
+  ],
+  "links": [
+    [
+      1,
+      1,
+      0,
+      2,
+      0,
+      -1
+    ],
+    [
+      98,
+      25,
+      0,
+      8,
+      1,
+      -1
+    ],
+    [
+      99,
+      25,
+      1,
+      8,
+      0,
+      "object"
+    ],
+    [
+      100,
+      2,
+      0,
+      25,
+      0,
+      -1
+    ],
+    [
+      102,
+      2,
+      5,
+      25,
+      2,
+      "object"
+    ],
+    [
+      103,
+      2,
+      6,
+      25,
+      3,
+      "object"
+    ],
+    [
+      104,
+      2,
+      21,
+      25,
+      4,
+      "object"
+    ],
+    [
+      107,
+      2,
+      43,
+      25,
+      7,
+      "object"
+    ],
+    [
+      108,
+      2,
+      46,
+      25,
+      8,
+      "object"
+    ],
+    [
+      109,
+      2,
+      55,
+      25,
+      9,
+      "object"
+    ],
+    [
+      110,
+      2,
+      54,
+      25,
+      10,
+      "object"
+    ],
+    [
+      111,
+      2,
+      47,
+      25,
+      11,
+      "object"
+    ],
+    [
+      112,
+      2,
+      16,
+      25,
+      6,
+      "object"
+    ],
+    [
+      113,
+      2,
+      15,
+      25,
+      5,
+      "object"
+    ],
+    [
+      114,
+      2,
+      1,
+      25,
+      1,
+      "object"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {},
+  "version": 0.4
+}
