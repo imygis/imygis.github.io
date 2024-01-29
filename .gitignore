@@ -1,0 +1,25 @@
+/.metadata
+/Build
+/dist
+/lib
+*.7z
+*.zip
+*.tgz
+.DS_Store
+Thumbs.db
+.eslintcache
+
+/node_modules
+npm-debug.log
+npm-debug.log.*
+package-lock.json
+
+# WebStorm user-specific
+.idea/workspace.xml
+.idea/tasks.xml
+
+#
+*.js.map
+*.css.map
+
+
