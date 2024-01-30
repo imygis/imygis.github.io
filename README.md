@@ -21,20 +21,14 @@ This project is actively developed by the iMyGIS Group. All Rights Reserved.
 
 - 数据展示：[三维汇报/三维PPT](https://imygis.github.io/web/presentationslides.html) 为工程设计提质增效。
 
-## 捐赠支持 Sponsors
-捐赠支持: 如果您觉得这个项目帮助到了您，您可以请作者喝杯咖啡表示鼓励 ☕️。
-
-iMyGIS appreciates contributions of all kinds. We especially want to thank our fiscal sponsors who contribute to ongoing project maintenance.
-
-## 贡献 Contributing
-若有兴趣，联系作者。
-
-If you are interested, contact the author.
-
 ## 风险提示
 若君欲用，风险自担。
 
 If you want to use it, at your own risk.
+
+## 数据渲染/三维漫游
+
+## 数据展示
 
 ## 数据处理
 
@@ -256,23 +250,37 @@ options:
 setup\iMyGIS-Client-x.y.z-YYYY.exe
 ```
 首先选择安装位置<br>
-![安装](assets/setup/1.png)<br>
+![安装](assets/module/setup/1.png)<br>
 开始安装<br>
-![安装](assets/setup/2.png)<br>
+![安装](assets/module/setup/2.png)<br>
 安装过程中<br>
-![安装](assets/setup/3.png)<br>
+![安装](assets/module/setup/3.png)<br>
 软件运行需要VC运行时支持，安装过程中会自动提示安装。若已经安装过，“关闭”跳过即可<br>
-![安装](assets/setup/4.png)<br>
+![安装](assets/module/setup/4.png)<br>
 关闭VC运行时安装会询问，是即可<br>
-![安装](assets/setup/5.png)<br>
+![安装](assets/module/setup/5.png)<br>
 软件安装完成后需要重启电脑<br>
-![安装](assets/setup/6.png)<br>
+![安装](assets/module/setup/6.png)<br>
 软件安装完成后桌面快捷方式<br>
-![安装](assets/setup/7.png)<br>
-软件安装完成后可用功能<br>
-![安装](assets/setup/8.png)<br>
+![安装](assets/module/setup/7.png)<br>
 
-## 交流
+## 交流、捐赠支持 Sponsors、贡献与参与 Contributing
+
+关于iMyGIS平台，若有兴趣，联系作者。
+
+If you are interested, contact the author.
+
+如果 iMyGIS平台 帮助到了您，您可以请作者喝杯咖啡表示鼓励 ☕️。
+
+iMyGIS appreciates contributions of all kinds. We especially want to thank our fiscal sponsors who contribute to ongoing project maintenance.
+
+我正在寻找新工作。如果您有兴趣雇佣我，请随时发送电子邮件到 imygis@sina.cn
+
+I am currently seeking funds to keep a roof over our head and looking for a new job. If you're interested in hiring me, please feel free to email me @ <imygis@sina.cn>
+
+您也可以使用微信和QQ联系到我。
+
+You can also use WeChat and QQ to reach me。
 
 ### 微信 wxid_doci96iau9un22
 
