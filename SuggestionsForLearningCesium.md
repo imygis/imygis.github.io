@@ -13,8 +13,8 @@ iMyGIS Platform for 3D Learning and Growth: Suggestions for learning Cesium
 
 ### 从数据入手，把握数据从客户获取到最终展示效果所经历的全部流转流程。对整个研发链条要有全局的把握。
 
-### 建议 学习 WebGL 理论基础
-可以先看看 中文版 https://webglfundamentals.org/webgl/lessons/zh_cn/
+### 建议 学习 理论基础
+WebGL 可以先看看 中文版 https://webglfundamentals.org/webgl/lessons/zh_cn/
 
 ![WebGL 理论基础](./assets/module/SuggestionsForLearningCesium/WebGLFundamentals.png)
 
