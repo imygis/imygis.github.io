@@ -32,7 +32,7 @@ Cesium3DTilesDownloadTileset.exe -o output/path/ -i network/path/to/tileset.json
 ```
 
 ## 交流、捐赠支持 Sponsors、贡献与参与 Contributing
-关于iMyGIS平台，若有兴趣，联系作者。
+关于iMyGIS平台，若有兴趣，联系作者。🌹
 
 If you are interested, contact the author.
 
@@ -40,11 +40,11 @@ If you are interested, contact the author.
 
 iMyGIS appreciates contributions of all kinds. We especially want to thank our fiscal sponsors who contribute to ongoing project maintenance.
 
-我正在寻找新工作。如果您有兴趣雇佣我，请随时发送电子邮件到 imygis@sina.cn
+我正在寻找新工作。如果您有兴趣雇佣我，请随时发送电子邮件到 imygis@sina.cn 📧
 
 I am currently seeking funds to keep a roof over our head and looking for a new job. If you're interested in hiring me, please feel free to email me @ <imygis@sina.cn>
 
-您也可以使用微信和QQ联系到我。
+您也可以使用微信和QQ联系到我。✍
 
 You can also use WeChat and QQ to reach me。
 

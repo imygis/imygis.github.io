@@ -1,19 +1,22 @@
 ﻿![iMyGIS平台](./assets/iMyGISPlatform.png)
 
 # iMyGIS平台
-
 iMyGIS平台 由 iMyGIS Group 维护。保留所有权利。
 
 This project is actively developed by the iMyGIS Group. All Rights Reserved.
 
-## iMyGIS平台之工具集 Cesium3DTilesMergeTileset.exe 工具
+## 风险提示
+若君欲用，风险自担。
 
-[3d-tiles](https://github.com/CesiumGS/3d-tiles) 数据的使用越来越普遍，此工具会将多层级的tileset (eg: tileset.json) 文件合并为 单个文件，并输出到 OutputDataPath 指定的目录下，从而达到减少小文件数目并加快渲染效率的目的。
+## iMyGIS平台之工具集 FileFormat.exe 工具
+使用场景
+
+将 xml 格式文件 转为 json 格式文件
 
 ```
-Cesium3DTilesMergeTileset.exe --InputDataPath=string --OutputDataPath=string [options] ...
+FileFormat.exe --InputDataPath=string --OutputDataPath=string [options] ...
 options:
-  -i, --InputDataPath     输入根文件tileset文件 eg: tileset.json (string)
+  -i, --InputDataPath     输入文件 (string)
   -o, --OutputDataPath    输出文件存放路径 (string)
   -?, --help              print this message
 ```
@@ -21,13 +24,12 @@ options:
 使用举例
 
 ```
-Cesium3DTilesMergeTileset.exe --OutputDataPath=output/path/ --InputDataPath=input/path/to/tileset.json
+FileFormat.exe --OutputDataPath=output/path/ --InputDataPath=input/path/to/xxx.xml
 
-Cesium3DTilesMergeTileset.exe -o output/path/ -i input/path/to/tileset.json
+FileFormat.exe -o output/path/ -i input/path/to/xxx.xml
 ```
 
 ## 交流、捐赠支持 Sponsors、贡献与参与 Contributing
-
 关于iMyGIS平台，若有兴趣，联系作者。🌹
 
 If you are interested, contact the author.
@@ -45,11 +47,9 @@ I am currently seeking funds to keep a roof over our head and looking for a new 
 You can also use WeChat and QQ to reach me。
 
 ### 微信 wxid_doci96iau9un22
-
 ![WeChat](./assets/iMyGISGroup/WeChatBlue.jpg)
 
 ### QQ 交流群 901291659
-
 ![QQ](./assets/iMyGISGroup/QQ.jpg)
 
 
